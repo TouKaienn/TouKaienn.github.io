@@ -1,0 +1,61 @@
+main:
+  - title: "TexGS-VolVis: Expressive Scene Editing for Volume Visualization via Textured Gaussian Splatting"
+    authors: <strong>Kaiyuan Tang</strong>, Kuangshi Ai, Jun Han, Chaoli Wang
+    conference_short: VIS 25
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2507.13586
+    image: /images/pubs/TexGSVolVis.png
+
+  - title: "MoE-INR: Implicit Neural Representation with Mixture-of-Experts for Time-Varying Volumetric Data Compression"
+    authors: Jun Han, <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: VIS 25
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
+    image: /images/pubs/MOEINR.png
+
+  - title: "NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting"
+    authors: Kuangshi Ai, <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: VIS 25
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2507.12621
+    code: https://github.com/KuangshiAi/nli4volvis
+    image: /images/pubs/NLI4VolVis.png
+
+  - title: "iVR-GS: Inverse Volume Rendering for Explorable Visualization via Editable 3D Gaussian Splatting"
+    authors: <strong>Kaiyuan Tang</strong>, Siyuan Yao, Chaoli Wang
+    conference_short: PVIS 25
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2504.17954
+    code: https://github.com/TouKaienn/iVR-GS
+    image: /images/pubs/iVRGS.png
+  
+  - title: "Meta-INR: Efficient Encoding of Volumetric Data via Meta-Learning Implicit Neural Representation"
+    authors: <u>Maizhe Yang</u>, <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: PVIS Short 25
+    conference: Proceedings of IEEE Pacific Visualization Conference (Visualization Notes), 2025.
+    code: https://github.com/spacefarers/MetaINR
+    pdf: https://ieeexplore.ieee.org/abstract/document/11021021
+    image: /images/pubs/MetaINR.png
+
+  - title: "StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive Volume Visualization"
+    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: VIS 24
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2025.
+    code: https://github.com/TouKaienn/StyleRF-VolVis
+    pdf: https://arxiv.org/abs/2408.00150
+    image: /images/pubs/StyleRFVolVis.png
+  
+  - title: "ECNR: Efficient Compressive Neural Representation of Time-Varying Volumetric Datasets"
+    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: PVIS 24
+    conference: Proceedings of IEEE Pacific Visualization Conference 2024.
+    pdf: https://arxiv.org/abs/2311.12831
+    code: https://github.com/TouKaienn/ECNR
+    image: /images/pubs/ECNR.png
+  
+  - title: "STSR-INR: Spatiotemporal Super-Resolution for Multivariate Time-Varying Volumetric Data via Implicit Neural Representation"
+    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: C & G
+    conference: Computers & Graphics, 2024.
+    code: https://github.com/TouKaienn/STSR-INR
+    pdf: https://par.nsf.gov/servlets/purl/10490874
+    image: /images/pubs/STSRINR.png

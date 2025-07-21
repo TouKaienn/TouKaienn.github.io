@@ -3,9 +3,9 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
+$gray                       : #fdfdfd;
+$dark-gray                  : #000;
+$darker-gray                : #000;
 $light-gray                 : #9ba1a6;
 $lighter-gray               : mix(#fff, $gray, 90%);
 
@@ -39,9 +39,27 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color                 : #52adc8;
     --global-link-color-hover           : mix(#000, #2f7f93, 25%);
     --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --global-masthead-link-color        : #9ca3af;  /* 淡灰色 */
+    --global-masthead-link-color-hover  : #6b7280;  /* 悬停时稍深的灰色 */
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+    
 }
+
+// /* Apply font weights */
+// body {
+//     font-weight: var(--global-font-weight-normal);
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+//     font-weight: var(--global-font-weight-bold);
+// }
+
+// .author__name {
+//     font-weight: var(--global-font-weight-bold);
+// }
+
+// .masthead a {
+//     font-weight: var(--global-font-weight-medium);
+// }
