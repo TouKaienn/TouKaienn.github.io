@@ -18,6 +18,7 @@ main:
     conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
     pdf: https://arxiv.org/abs/2507.12621
     code: https://github.com/KuangshiAi/nli4volvis
+    notes: "🏆 Best Paper Award"
     image: /images/pubs/NLI4VolVis.png
 
   - title: "iVR-GS: Inverse Volume Rendering for Explorable Visualization via Editable 3D Gaussian Splatting"

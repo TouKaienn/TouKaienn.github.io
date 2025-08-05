@@ -1,7 +1,11 @@
 main:
+  - date: 2025.08
+    content: NLI4VolVis is selected as Best Paper Award for IEEE VIS 2025!
   - date: 2025.07
     content: Three papers are accepted to IEEE VIS 2025!
   - date: 2024.12
     content: iVR-GS is accepted by IEEE PacificVis TVCG-Track 2025!
   - date: 2024.07
     content: StyleRF-VolVis is accepted by IEEE VIS 2024!
+  - date: 2023.12
+    content: ECNR is accepted by IEEE PacificVis Conference Track 2024!
