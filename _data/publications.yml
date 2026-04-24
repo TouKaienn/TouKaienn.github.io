@@ -1,4 +1,29 @@
 main:
+  - title: "SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation"
+    authors: Zixuan Pan*, <strong>Kaiyuan Tang</strong>*, Jun Xia, Yifan Qin, Lin Gu, Chaoli Wang, Jianxu Chen, Yiyu Shi
+    conference_short: CVPR 26
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2603.07789
+    code: https://github.com/zx-pan/SGI
+    notes: "🌟 Highlight Presentation"
+    image: /images/pubs/SGI.png
+
+  - title: "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents"
+    authors: Kuangshi Ai, Haichao Miao, <strong>Kaiyuan Tang</strong>, Nathaniel Gorski, Jianxin Sun, Guoxi Liu, Helgi I. Ingolfsson, David Lenz, Hanqi Guo, Hongfeng Yu, Teja Leburu, Michael Molash, Bei Wang, Tom Peterka, Chaoli Wang, Shusen Liu
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2603.29139
+    page: https://scivisagentbench.github.io/
+    data: https://huggingface.co/datasets/SciVisAgentBench/SciVisAgentBench-tasks
+    image: /images/pubs/SciVisAgentBench.png
+
+  - title: "SVLAT: Scientific Visualization Literacy Assessment Test"
+    authors: Patrick Phuoc Do, <strong>Kaiyuan Tang</strong>, Kuangshi Ai, Chaoli Wang
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2603.19000
+    image: /images/pubs/SVLAT.png
+
   - title: "TexGS-VolVis: Expressive Scene Editing for Volume Visualization via Textured Gaussian Splatting"
     authors: <strong>Kaiyuan Tang</strong>, Kuangshi Ai, Jun Han, Chaoli Wang
     conference_short: VIS 25
