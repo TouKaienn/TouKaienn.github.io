@@ -27,7 +27,7 @@ main:
   - title: "Super-Gaussian: Interactive Scene Editing for 3D Gaussian Splatting and NLI-Based Volume Visualization in Virtual Reality"
     authors: Suemin Jeon, <strong>Kaiyuan Tang</strong>, Chaoli Wang, Won-Ki Jeong
     conference_short: VIS 26
-    conference: IEEE VIS 2026, accepted.
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, to appear (IEEE VIS 2026).
     pdf: https://arxiv.org/abs/2608.04475
     page: https://smin0136.github.io/super-gaussian-project/
     image: /images/pubs/SuperGaussian.png
