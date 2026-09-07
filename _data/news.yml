@@ -1,4 +1,6 @@
 main:
+  - date: "2026.09"
+    content: "EVOLVE, ECoNGS, SciVisAgentBench, and Super-Gaussian will appear at IEEE VIS 2026, along with Lossless-INR in the short papers program!"
   - date: 2026.04
     content: SGI is selected as a Highlight Presentation at CVPR 2026!
   - date: 2025.08

@@ -26,8 +26,3 @@ Service
 ======
 
 {% include services.html %}
-
-
-MISC
-======
-One thing I find quite amusing is that although I’ve already published several papers during my PhD, due to visa issues and some unexpected circumstances, I’ve actually never attended any academic conference in person — I’m really grateful to my advisor for helping present some of my works. On one hand, I genuinely hope to have the chance to meet and connect with people face-to-face soon, but on the other hand, I can’t help but feel a strange kind of excitement about keeping this “record” going. 😂

@@ -1,4 +1,52 @@
 main:
+  - title: "EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database"
+    authors: <strong>Kaiyuan Tang</strong>, Maizhe Yang, Chaoli Wang
+    conference_short: VIS 26
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, to appear (IEEE VIS 2026).
+    pdf: https://arxiv.org/abs/2607.18187
+    code: https://github.com/TouKaienn/EVOLVE
+    page: https://evolve-vis.github.io/
+    image: /images/pubs/EVOLVE.png
+
+  - title: "ECoNGS: Efficient Compressive Neural Gaussian Splats for Volume Visualization"
+    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
+    conference_short: VIS 26
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, to appear (IEEE VIS 2026).
+    pdf: https://arxiv.org/abs/2607.18466
+    code: https://github.com/TouKaienn/ECoNGS
+    image: /images/pubs/ECoNGS.png
+
+  - title: "Lossless-INR: Lossless Volumetric Implicit Neural Representations"
+    authors: <strong>Kaiyuan Tang</strong>, Daniel Burke, Chaoli Wang
+    conference_short: VIS Short 26
+    conference: Proceedings of IEEE VIS 2026 (Short Papers), to appear.
+    pdf: https://arxiv.org/abs/2607.18150
+    code: https://github.com/TouKaienn/Lossless-INR
+    image: /images/pubs/LosslessINR.png
+
+  - title: "Super-Gaussian: Interactive Scene Editing for 3D Gaussian Splatting and NLI-Based Volume Visualization in Virtual Reality"
+    authors: Suemin Jeon, <strong>Kaiyuan Tang</strong>, Chaoli Wang, Won-Ki Jeong
+    conference_short: VIS 26
+    conference: IEEE VIS 2026, accepted.
+    pdf: https://arxiv.org/abs/2608.04475
+    page: https://smin0136.github.io/super-gaussian-project/
+    image: /images/pubs/SuperGaussian.png
+
+  - title: "SciVisAgentSkills: Design and Evaluation of Agent Skills for Scientific Data Analysis and Visualization"
+    authors: Kuangshi Ai, Haichao Miao, <strong>Kaiyuan Tang</strong>, Shusen Liu, Chaoli Wang
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2606.05525
+    code: https://github.com/KuangshiAi/SciVisAgentSkills
+    image: /images/pubs/SciVisAgentSkills.png
+
+  - title: "Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks"
+    authors: Haichao Miao, Zhimin Li, Kuangshi Ai, <strong>Kaiyuan Tang</strong>, Chaoli Wang, Peer-Timo Bremer, Shusen Liu
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2605.21825
+    image: /images/pubs/AIVISCoScientists.png
+
   - title: "SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation"
     authors: Zixuan Pan*, <strong>Kaiyuan Tang</strong>*, Jun Xia, Yifan Qin, Lin Gu, Chaoli Wang, Jianxu Chen, Yiyu Shi
     conference_short: CVPR 26
@@ -10,9 +58,10 @@ main:
 
   - title: "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents"
     authors: Kuangshi Ai, Haichao Miao, <strong>Kaiyuan Tang</strong>, Nathaniel Gorski, Jianxin Sun, Guoxi Liu, Helgi I. Ingolfsson, David Lenz, Hanqi Guo, Hongfeng Yu, Teja Leburu, Michael Molash, Bei Wang, Tom Peterka, Chaoli Wang, Shusen Liu
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
+    conference_short: VIS 26
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, to appear (IEEE VIS 2026).
     pdf: https://arxiv.org/abs/2603.29139
+    code: https://github.com/KuangshiAi/SciVisAgentBench
     page: https://scivisagentbench.github.io/
     data: https://huggingface.co/datasets/SciVisAgentBench/SciVisAgentBench-tasks
     image: /images/pubs/SciVisAgentBench.png
