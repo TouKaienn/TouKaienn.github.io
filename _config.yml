@@ -13,7 +13,7 @@ title                    : "Kaiyuan Tang (唐开元) / Homepage"
 title_separator          : "-"
 name                     : &name "Kaiyuan Tang"
 description              : &description "personal description"
-url                      : https://www.kaiyuan-tang.com  # 改为你的实际域名
+url                      : "//www.kaiyuan-tang.com"  # 改为你的实际域名
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TouKaienn/TouKaienn.github.io"  # 改为你的仓库
 
