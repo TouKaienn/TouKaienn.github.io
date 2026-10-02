@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Kaiyuan Tang (唐开元) / Homepage"
+title                    : "Kaiyuan Tang / Homepage"
 title_separator          : "-"
 name                     : &name "Kaiyuan Tang"
-description              : &description "personal description"
+description              : &description "Kaiyuan Tang, postdoctoral researcher at the University of Notre Dame working on scientific visualization, computer graphics, and machine learning."
 url                      : https://TouKaienn.github.io  # 改为你的实际域名
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TouKaienn/TouKaienn.github.io"  # 改为你的仓库
@@ -25,7 +25,7 @@ author:
   avatar           : "/profile.png"
   name             : "Kaiyuan Tang"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate at University of Notre Dame"
+  bio              : "Postdoctoral Researcher at University of Notre Dame"
   location         : "US - Notre Dame"
   employer         : "University of Notre Dame"
   uri              : # URL
@@ -351,4 +351,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-

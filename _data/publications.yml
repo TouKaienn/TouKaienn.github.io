@@ -1,87 +1,198 @@
+# Publication facts and status: Kaiyuan_Tang_CV.pdf, updated October 1, 2026.
+# Preprints are listed only when publicly available on arXiv.
+# Citation formatting and resource links: https://sites.nd.edu/chaoli-wang/publications/
+# Undergraduate coauthors: https://sites.nd.edu/chaoli-wang/team/
+# year is the bibliographic publication year, including assigned future journal issues.
+# Within each year, venue_sort groups venues alphabetically; source order is retained within a venue.
+
 main:
-  - title: "SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation"
-    authors: Zixuan Pan*, <strong>Kaiyuan Tang</strong>*, Jun Xia, Yifan Qin, Lin Gu, Chaoli Wang, Jianxu Chen, Yiyu Shi
-    conference_short: CVPR 26
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
-    pdf: https://arxiv.org/abs/2603.07789
-    code: https://github.com/zx-pan/SGI
-    notes: "🌟 Highlight Presentation"
-    image: /images/pubs/SGI.png
+  - title: "EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database"
+    image: "/images/pubs/EVOLVE-comparison.png"
+    image_class: "publication-teaser--evolve"
+    authors: "<strong>Kaiyuan Tang</strong>, Maizhe Yang, and Chaoli Wang"
+    year: 2027
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2026"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2026)</em>, 33(1), Jan 2027."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis26-evolve.pdf"
+    page: "https://evolve-vis.github.io/"
+    code: "https://github.com/TouKaienn/EVOLVE"
+
+  - title: "ECoNGS: Efficient Compressive Neural Gaussian Splats for Volume Visualization"
+    image: "/images/pubs/ECoNGS.png"
+    authors: "<strong>Kaiyuan Tang</strong> and Chaoli Wang"
+    year: 2027
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2026"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2026)</em>, 33(1), Jan 2027."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis26-econgs.pdf"
+    video: "https://academicweb.nd.edu/~cwang11/videos/vis26-econgs.mp4"
+    code: "https://github.com/TouKaienn/ECoNGS"
 
   - title: "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents"
-    authors: Kuangshi Ai, Haichao Miao, <strong>Kaiyuan Tang</strong>, Nathaniel Gorski, Jianxin Sun, Guoxi Liu, Helgi I. Ingolfsson, David Lenz, Hanqi Guo, Hongfeng Yu, Teja Leburu, Michael Molash, Bei Wang, Tom Peterka, Chaoli Wang, Shusen Liu
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
-    pdf: https://arxiv.org/abs/2603.29139
-    page: https://scivisagentbench.github.io/
-    data: https://huggingface.co/datasets/SciVisAgentBench/SciVisAgentBench-tasks
-    image: /images/pubs/SciVisAgentBench.png
+    image: "/images/pubs/SciVisAgentBench.png"
+    authors: "Kuangshi Ai, Haichao Miao, <strong>Kaiyuan Tang</strong>, Nathaniel Gorski, Jianxin Sun, Guoxi Liu, Helgi I. Ingólfsson, David Lenz, Hanqi Guo, Hongfeng Yu, Teja Leburu, Michael Molash, Bei Wang, Tom Peterka, Chaoli Wang, and Shusen Liu"
+    year: 2027
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2026"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2026)</em>, 33(1), Jan 2027."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis26-svab.pdf"
+    page: "https://scivisagentbench.github.io/"
+    code: "https://github.com/KuangshiAi/SciVisAgentBench"
+    data: "https://huggingface.co/datasets/SciVisAgentBench/SciVisAgentBench-tasks"
 
-  - title: "SVLAT: Scientific Visualization Literacy Assessment Test"
-    authors: Patrick Phuoc Do, <strong>Kaiyuan Tang</strong>, Kuangshi Ai, Chaoli Wang
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
-    pdf: https://arxiv.org/abs/2603.19000
-    image: /images/pubs/SVLAT.png
+  - title: "Super-Gaussian: Interactive Scene Editing for 3D Gaussian Splatting and NLI-Based Volume Visualization in Virtual Reality"
+    image: "/images/pubs/SuperGaussian.png"
+    authors: "Suemin Jeon, <strong>Kaiyuan Tang</strong>, Chaoli Wang, and Won-Ki Jeong"
+    year: 2027
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2026"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2026)</em>, 33(1), Jan 2027."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis26-sg.pdf"
+    video: "https://academicweb.nd.edu/~cwang11/videos/vis26-sg.mp4"
+    page: "https://smin0136.github.io/super-gaussian-project"
+
+  - title: "CoBranchMR: Supporting Parallel Design and Conflict Resolution in Mixed Reality"
+    image: "/images/pubs/CoBranchMR.png"
+    authors: "Niloofar Sayadi, <strong>Kaiyuan Tang</strong>, Yunhao Xing, Simret Gebreegziabher, Chaoli Wang, and Diego Gómez-Zará"
+    year: 2026
+    venue_sort: "ACM Conference on Computer-Supported Cooperative Work and Social Computing"
+    conference_short: "CSCW Demo 2026"
+    conference: "In <em>Proceedings of ACM Conference on Computer-Supported Cooperative Work and Social Computing (Demonstrations)</em>, Salt Lake City, UT, Oct 2026."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/cscw26-cbmr.pdf"
+    video: "https://academicweb.nd.edu/~cwang11/videos/cscw26-cbmr.qt"
 
   - title: "TexGS-VolVis: Expressive Scene Editing for Volume Visualization via Textured Gaussian Splatting"
-    authors: <strong>Kaiyuan Tang</strong>, Kuangshi Ai, Jun Han, Chaoli Wang
-    conference_short: VIS 25
-    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
-    pdf: https://arxiv.org/abs/2507.13586
-    image: /images/pubs/TexGSVolVis.png
+    image: "/images/pubs/TexGSVolVis.png"
+    authors: "<strong>Kaiyuan Tang</strong>, Kuangshi Ai, Jun Han, and Chaoli Wang"
+    year: 2026
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2025"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2025)</em>, 32(1):933-943, Jan 2026."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis25-texgs.pdf"
+    code: "https://github.com/TouKaienn/TexGS-VolVis"
+    video: "https://academicweb.nd.edu/~cwang11/videos/vis25-texgs.mp4"
 
   - title: "MoE-INR: Implicit Neural Representation with Mixture-of-Experts for Time-Varying Volumetric Data Compression"
-    authors: Jun Han, <strong>Kaiyuan Tang</strong>, Chaoli Wang
-    conference_short: VIS 25
-    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
-    image: /images/pubs/MOEINR.png
+    image: "/images/pubs/MOEINR.png"
+    authors: "Jun Han, <strong>Kaiyuan Tang</strong>, and Chaoli Wang"
+    year: 2026
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2025"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2025)</em>, 32(1):254-264, Jan 2026."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis25-moeinr.pdf"
+    video: "https://academicweb.nd.edu/~cwang11/videos/vis25-moeinr.mp4"
 
   - title: "NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting"
-    authors: Kuangshi Ai, <strong>Kaiyuan Tang</strong>, Chaoli Wang
-    conference_short: VIS 25
-    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2026.
-    pdf: https://arxiv.org/abs/2507.12621
-    code: https://github.com/KuangshiAi/nli4volvis
-    notes: "🏆 Best Paper Award"
-    image: /images/pubs/NLI4VolVis.png
+    image: "/images/pubs/NLI4VolVis.png"
+    authors: "Kuangshi Ai, <strong>Kaiyuan Tang</strong>, and Chaoli Wang"
+    year: 2026
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2025"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2025)</em>, 32(1):46-56, Jan 2026."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis25-nli4volvis.pdf"
+    code: "https://github.com/KuangshiAi/nli4volvis"
+    video: "https://academicweb.nd.edu/~cwang11/videos/vis25-nli4volvis.mp4"
+    page: "https://nli4volvis.github.io/"
+    notes: "Best Paper Award · IEEE VIS 2025"
+
+  - title: "Lossless-INR: Lossless Volumetric Implicit Neural Representations"
+    image: "/images/pubs/LosslessINR-method.png"
+    authors: "<strong>Kaiyuan Tang</strong>, <u>Daniel Burke</u>, and Chaoli Wang"
+    year: 2026
+    venue_sort: "IEEE VIS Conference"
+    conference_short: "VIS Short 2026"
+    conference: "In <em>Proceedings of IEEE VIS Conference (Short Papers)</em>, Boston, MA, Nov 2026."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis26-llinr.pdf"
+    code: "https://github.com/TouKaienn/Lossless-INR"
+
+  - title: "SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation"
+    image: "/images/pubs/SGI.png"
+    authors: "Zixuan Pan*, <strong>Kaiyuan Tang</strong>*, Jun Xia, Yifan Qin, Lin Gu, Chaoli Wang, Jianxu Chen, and Yiyu Shi"
+    year: 2026
+    venue_sort: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    conference_short: "CVPR 2026"
+    conference: "In <em>Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>, Denver, CO, pages 12162-12172, Jun 2026."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/cvpr26-sgi.pdf"
+    code: "https://github.com/zx-pan/SGI"
+    notes: "Highlight Presentation"
+
+  - title: "Toward AI VIS Co-Scientists: An Agent Harness for End-to-End Design of Scientific Visualization Applications"
+    image: "/images/pubs/CoScientists.png"
+    authors: "Haichao Miao, Zhimin Li, Kuangshi Ai, <strong>Kaiyuan Tang</strong>, Chaoli Wang, Peer-Timo Bremer, and Shusen Liu"
+    year: 2026
+    venue_sort: "Workshop on GenAI, Agents, and the Future of VIS"
+    conference_short: "VISxGenAI 2026"
+    conference: "<em>2nd Workshop on GenAI, Agents, and the Future of VIS (VISxGenAI at IEEE VIS)</em>, Boston, MA, Nov 2026."
+    notes: "Oral Presentation"
+    page: "https://visxgenai.github.io/"
+
+  - title: "SVLAT: Scientific Visualization Literacy Assessment Test"
+    image: "/images/pubs/SVLAT.png"
+    authors: "Patrick Phuoc Do, <strong>Kaiyuan Tang</strong>, Kuangshi Ai, and Chaoli Wang"
+    year: 2026
+    venue_sort: "arXiv"
+    conference_short: "arXiv"
+    conference: "arXiv preprint arXiv:2603.19000, 2026."
+    pdf: "https://arxiv.org/abs/2603.19000"
+
+  - title: "Direct Topology Tracking in Continuous Implicit Models"
+    image: "/images/pubs/DirectTopology.png"
+    authors: "Guanqun Ma, David Lenz, <strong>Kaiyuan Tang</strong>, Hanqi Guo, Chaoli Wang, Tom Peterka, and Bei Wang"
+    year: 2026
+    venue_sort: "arXiv"
+    conference_short: "arXiv"
+    conference: "arXiv preprint arXiv:2609.12157, 2026."
+    pdf: "https://arxiv.org/abs/2609.12157"
+
+  - title: "Meta-INR: Efficient Encoding of Volumetric Data via Meta-Learning Implicit Neural Representation"
+    image: "/images/pubs/MetaINR.png"
+    authors: "<u>Maizhe Yang</u>, <strong>Kaiyuan Tang</strong>, and Chaoli Wang"
+    year: 2025
+    venue_sort: "IEEE Pacific Visualization Conference"
+    conference_short: "PacificVis Notes 2025"
+    conference: "In <em>Proceedings of IEEE Pacific Visualization Conference (Visualization Notes)</em>, Taipei, Taiwan, pages 246-251, Apr 2025."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/pvis25-metainr.pdf"
+    code: "https://github.com/spacefarers/MetaINR"
+    video: "https://academicweb.nd.edu/~cwang11/videos/pvis25-metainr.mp4"
 
   - title: "iVR-GS: Inverse Volume Rendering for Explorable Visualization via Editable 3D Gaussian Splatting"
-    authors: <strong>Kaiyuan Tang</strong>, Siyuan Yao, Chaoli Wang
-    conference_short: PVIS 25
-    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2025.
-    pdf: https://arxiv.org/abs/2504.17954
-    code: https://github.com/TouKaienn/iVR-GS
-    image: /images/pubs/iVRGS.png
-  
-  - title: "Meta-INR: Efficient Encoding of Volumetric Data via Meta-Learning Implicit Neural Representation"
-    authors: <u>Maizhe Yang</u>, <strong>Kaiyuan Tang</strong>, Chaoli Wang
-    conference_short: PVIS Short 25
-    conference: Proceedings of IEEE Pacific Visualization Conference (Visualization Notes), 2025.
-    code: https://github.com/spacefarers/MetaINR
-    pdf: https://ieeexplore.ieee.org/abstract/document/11021021
-    image: /images/pubs/MetaINR.png
+    image: "/images/pubs/iVRGS.png"
+    authors: "<strong>Kaiyuan Tang</strong>, Siyuan Yao, and Chaoli Wang"
+    year: 2025
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "PacificVis 2025"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2025)</em>, 31(6):3783-3795, Jun 2025."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/pvis25-ivrgs.pdf"
+    code: "https://github.com/TouKaienn/iVR-GS"
+    video: "https://academicweb.nd.edu/~cwang11/videos/pvis25-ivrgs.mp4"
 
   - title: "StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive Volume Visualization"
-    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
-    conference_short: VIS 24
-    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2025.
-    code: https://github.com/TouKaienn/StyleRF-VolVis
-    pdf: https://arxiv.org/abs/2408.00150
-    image: /images/pubs/StyleRFVolVis.png
-  
-  - title: "ECNR: Efficient Compressive Neural Representation of Time-Varying Volumetric Datasets"
-    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
-    conference_short: PVIS 24
-    conference: Proceedings of IEEE Pacific Visualization Conference 2024.
-    pdf: https://arxiv.org/abs/2311.12831
-    code: https://github.com/TouKaienn/ECNR
-    image: /images/pubs/ECNR.png
-  
+    image: "/images/pubs/StyleRFVolVis.png"
+    authors: "<strong>Kaiyuan Tang</strong> and Chaoli Wang"
+    year: 2025
+    venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
+    conference_short: "VIS 2024"
+    conference: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2024)</em>, 31(1):613-623, Jan 2025."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/vis24-stylerf.pdf"
+    code: "https://github.com/TouKaienn/StyleRF-VolVis"
+
   - title: "STSR-INR: Spatiotemporal Super-Resolution for Multivariate Time-Varying Volumetric Data via Implicit Neural Representation"
-    authors: <strong>Kaiyuan Tang</strong>, Chaoli Wang
-    conference_short: C & G
-    conference: Computers & Graphics, 2024.
-    code: https://github.com/TouKaienn/STSR-INR
-    pdf: https://par.nsf.gov/servlets/purl/10490874
-    image: /images/pubs/STSRINR.png
+    image: "/images/pubs/STSRINR.png"
+    authors: "<strong>Kaiyuan Tang</strong> and Chaoli Wang"
+    year: 2024
+    venue_sort: "Computers & Graphics"
+    conference_short: "Computers & Graphics"
+    conference: "<em>Computers & Graphics</em>, 119:103874, Apr 2024."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/cg24-stsrinr.pdf"
+    code: "https://github.com/TouKaienn/STSR-INR"
+
+  - title: "ECNR: Efficient Compressive Neural Representation of Time-Varying Volumetric Datasets"
+    image: "/images/pubs/ECNR.png"
+    authors: "<strong>Kaiyuan Tang</strong> and Chaoli Wang"
+    year: 2024
+    venue_sort: "IEEE Pacific Visualization Conference"
+    conference_short: "PacificVis 2024"
+    conference: "In <em>Proceedings of IEEE Pacific Visualization Conference</em>, Tokyo, Japan, pages 72-81, Apr 2024."
+    pdf: "https://academicweb.nd.edu/~cwang11/papers/pvis24-ecnr.pdf"
+    code: "https://github.com/TouKaienn/ECNR"

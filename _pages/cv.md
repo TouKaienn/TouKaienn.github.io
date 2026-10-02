@@ -1,64 +1,75 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /resume-json
 ---
 
-{% include base_path %}
+{% assign cv = site.data.cv %}
+
+[Download the complete CV (PDF)]({{ '/files/Kaiyuan_Tang_CV.pdf' | relative_url }}) · Updated {{ cv.lastUpdated }}
+
+{{ cv.basics.summary }}
+
+**Contact:** [{{ cv.basics.email }}](mailto:{{ cv.basics.email }}) · {{ cv.basics.phone }}<br>
+{{ cv.basics.location.address }}, {{ cv.basics.location.city }}, {{ cv.basics.location.region }}
+
+Research Interests
+======
+
+<ul>
+{% for interest in cv.interests %}
+  <li><strong>{{ interest.name }}:</strong> {{ interest.keywords | join: ", " }}</li>
+{% endfor %}
+</ul>
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+<ul>
+{% for education in cv.education %}
+  <li><strong>{{ education.studyType }}{% if education.area %}, {{ education.area }}{% endif %}</strong>, {{ education.startDate }}–{{ education.endDate }}<br>
+  {{ education.institution }}, {{ education.location }}{% if education.advisor %}<br>Advisor: {{ education.advisor }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+Employment
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<ul>
+{% for position in cv.work %}
+  <li><strong>{{ position.position }}</strong>, {{ position.startDate }}–{{ position.endDate }}<br>
+  {{ position.company }}, {{ position.location }}<br>{{ position.summary }}</li>
+{% endfor %}
+</ul>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Awards & Recognitions
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+<ul>
+{% for award in cv.awards %}
+  <li>{{ award.title }}, {{ award.date }}</li>
+{% endfor %}
+</ul>
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+{% include publications.html %}
+
+Invited Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+<ul>
+{% for talk in cv.presentations %}
+  <li><strong>{{ talk.name }}</strong><br>{{ talk.event }}, {{ talk.location }}, {{ talk.date }}</li>
+{% endfor %}
+</ul>
+
+Service
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+{% include services.html %}

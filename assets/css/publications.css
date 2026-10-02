@@ -1,0 +1,205 @@
+/* Publication styles are shared by the publications archive and web CV. */
+.publications {
+  margin-top: 0.75rem;
+}
+
+.publications .publications-legend {
+  margin: 0 0 1.5rem;
+  font-size: 0.85em;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.publications u {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.publications .publication-year-heading {
+  margin: 1.8rem 0 1.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--global-dark-border-color, #d6dce2);
+  font-size: 1.3em;
+}
+
+.publications .bibliography {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.publications .publication-entry {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  align-items: start;
+  gap: 1.4rem;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+.publications .publication-media {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.publications .publication-teaser {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 175px;
+  margin: 0;
+  object-fit: contain;
+  object-position: center top;
+  border-radius: 4px;
+}
+
+.publications .publication-details {
+  min-width: 0;
+}
+
+/* Show the comparison panel above its original subfigure caption. */
+.publications .publication-teaser--evolve {
+  max-width: 179px;
+  aspect-ratio: 828 / 810;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.publications .publication-badge {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  padding: 0.18em 0.65em;
+  border: 1px solid #d9e2ed;
+  border-radius: 4px;
+  color: #425c7a;
+  background: #f0f4f9;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.publications .publication-title {
+  margin: 0 0 0.45rem;
+  font-size: 1.02em;
+  line-height: 1.4;
+}
+
+.publications .publication-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.publications .publication-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.publications .publication-authors {
+  margin-bottom: 0.35rem;
+  font-size: 0.94em;
+  line-height: 1.6;
+}
+
+.publications .publication-citation {
+  margin-bottom: 0.7rem;
+  font-size: 0.9em;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.publications .publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.publications .publication-link {
+  display: inline-block;
+  padding: 0.22rem 0.75rem;
+  border: 1px solid var(--publication-button-border);
+  border-radius: 999px;
+  color: var(--publication-button-text);
+  background: var(--publication-button-bg);
+  font-size: 0.78em;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.publications .publication-link:visited {
+  color: var(--publication-button-text);
+}
+
+.publications .publication-link:hover {
+  color: var(--publication-button-text);
+  border-color: currentColor;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+  text-decoration: none;
+}
+
+.publications a:focus-visible {
+  outline: 2px solid #3274be;
+  outline-offset: 3px;
+}
+
+.publications .publication-link--pdf {
+  --publication-button-text: #923e37;
+  --publication-button-bg: #fff0ed;
+  --publication-button-border: #f2c9c2;
+}
+
+.publications .publication-link--code {
+  --publication-button-text: #266543;
+  --publication-button-bg: #eaf7ef;
+  --publication-button-border: #c5e5d2;
+}
+
+.publications .publication-link--project {
+  --publication-button-text: #285d9d;
+  --publication-button-bg: #eaf2ff;
+  --publication-button-border: #c8daf3;
+}
+
+.publications .publication-link--data {
+  --publication-button-text: #684298;
+  --publication-button-bg: #f3edff;
+  --publication-button-border: #dfcef3;
+}
+
+.publications .publication-link--video {
+  --publication-button-text: #815700;
+  --publication-button-bg: #fff4dc;
+  --publication-button-border: #efd8a5;
+}
+
+.publications .publication-link--bibtex {
+  --publication-button-text: #495969;
+  --publication-button-bg: #eff3f6;
+  --publication-button-border: #d3dee7;
+}
+
+.publications .publication-note {
+  font-weight: 700;
+}
+
+.publications .publication-extra {
+  margin-top: 0.6rem;
+  font-size: 0.9em;
+}
+
+@media (max-width: 700px) {
+  .publications .publication-entry {
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .publications .publication-entry {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+}

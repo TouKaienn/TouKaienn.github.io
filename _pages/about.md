@@ -1,33 +1,44 @@
 ---
 permalink: /
-title: "About Me"
-author_profile: true
-redirect_from: 
+layout: about
+title: "About"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Ph.D. candidate in the [Department of Computer Science and Engineering](https://cse.nd.edu/) at the [University of Notre Dame](https://www.nd.edu/), working in the ND-VIS research group under the supervision of [Prof. Chaoli Wang](https://sites.nd.edu/chaoli-wang/). Prior to this, I obtained my B.S. degree from [Xidian University](https://en.xidian.edu.cn/) in 2022.
+<header class="homepage-header">
+  <h1>{{ site.author.name }}</h1>
+  <p class="homepage-position">Postdoctoral Researcher · University of Notre Dame</p>
+</header>
 
-My exisiting research focuses on the intersection of scientific visualization, computer graphics, and machine learning, including volumetric data generation and compression, as well as 3D scene representation and editing. Recently, I've become especially interested in emerging techniques in 3D vision, such as foundation models and MLLMs, and I believe exploring their potential applications in scientific visualization is a fascinating direction.
+<div class="homepage-intro">
+<div class="homepage-bio" markdown="1">
 
-Recent News
-======
+I am a postdoctoral researcher in the [Department of Computer Science and Engineering](https://cse.nd.edu/) at the [University of Notre Dame](https://www.nd.edu/), working with [Prof. Chaoli Wang](https://sites.nd.edu/chaoli-wang/) in the ND-VIS research group.
+
+I received my Ph.D. in Computer Science and Engineering from Notre Dame in June 2026, advised by Prof. Wang, and my Bachelor of Engineering from [Xidian University](https://en.xidian.edu.cn/) in 2022.
+
+</div>
+<img class="homepage-portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Kaiyuan Tang" width="720" height="720">
+</div>
+
+<div class="homepage-research" markdown="1">
+
+My research brings together **scientific visualization, machine learning, computer graphics, and human-centered AI**. I develop neural representations for scientific data compression and generalization, expressive rendering and editable scene representations, and multimodal interfaces and visualization agents.
+
+</div>
+
+<ul class="homepage-links" aria-label="Contact and academic profiles">
+  <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+  <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+  <li><a href="{{ site.author.orcid }}">ORCID</a></li>
+  <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+</ul>
+
+<section class="homepage-news" aria-labelledby="news">
+<h2 id="news">News</h2>
 
 {% include recent-news.html %}
-
-Publications
-======
-
-{% include publications.html %}
-
-
-Service
-======
-
-{% include services.html %}
-
-
-MISC
-======
-One thing I find quite amusing is that although I’ve already published several papers during my PhD, due to visa issues and some unexpected circumstances, I’ve actually never attended any academic conference in person — I’m really grateful to my advisor for helping present some of my works. On one hand, I genuinely hope to have the chance to meet and connect with people face-to-face soon, but on the other hand, I can’t help but feel a strange kind of excitement about keeping this “record” going. 😂
+</section>

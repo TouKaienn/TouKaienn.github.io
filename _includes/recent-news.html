@@ -28,15 +28,11 @@
 
 </style>
 
-
-
-
-<div class="news-list">
-  {% for link in site.data.news.main %}
-  <div class="news-item">
-    <span class="news-date">[{{link.date}}]</span>
-    <span class="news-content">{{link.content}}</span>
-  </div>
-  
+<ul class="news-list">
+  {% for item in site.data.news.main %}
+  <li class="news-item">
+    <time class="news-date" datetime="{{ item.date }}">[{{ item.label | default: item.date }}]</time>
+    <span class="news-content">{{ item.content }}</span>
+  </li>
   {% endfor %}
-</div>
+</ul>

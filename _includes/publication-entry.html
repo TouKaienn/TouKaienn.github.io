@@ -1,0 +1,41 @@
+{% assign publication = include.publication %}
+<li class="publication-entry">
+  {% if publication.image %}
+  <div class="publication-media">
+    <img src="{{ publication.image | relative_url }}" class="publication-teaser{% if publication.image_class %} {{ publication.image_class | escape }}{% endif %}" alt="Publication preview: {{ publication.title | escape }}" loading="lazy" decoding="async">
+  </div>
+  {% endif %}
+  <div class="publication-details">
+    {% if publication.conference_short %}<span class="publication-badge">{{ publication.conference_short }}</span>{% endif %}
+    <h3 class="publication-title">
+      {% if publication.pdf and publication.pdf != empty %}
+      <a href="{{ publication.pdf | escape }}" target="_blank" rel="noopener noreferrer">{{ publication.title }}</a>
+      {% else %}
+      {{ publication.title }}
+      {% endif %}
+    </h3>
+    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-citation">{{ publication.conference }}{% if publication.notes %} <strong class="publication-note">[{{ publication.notes }}]</strong>{% endif %}</div>
+    <div class="publication-links">
+      {% if publication.pdf and publication.pdf != empty %}
+      <a href="{{ publication.pdf | escape }}" class="publication-link publication-link--pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+      {% endif %}
+      {% if publication.code and publication.code != empty %}
+      <a href="{{ publication.code | escape }}" class="publication-link publication-link--code" target="_blank" rel="noopener noreferrer">Code</a>
+      {% endif %}
+      {% if publication.page and publication.page != empty %}
+      <a href="{{ publication.page | escape }}" class="publication-link publication-link--project" target="_blank" rel="noopener noreferrer">Project Page</a>
+      {% endif %}
+      {% if publication.data and publication.data != empty %}
+      <a href="{{ publication.data | escape }}" class="publication-link publication-link--data" target="_blank" rel="noopener noreferrer">Dataset</a>
+      {% endif %}
+      {% if publication.video and publication.video != empty %}
+      <a href="{{ publication.video | escape }}" class="publication-link publication-link--video" target="_blank" rel="noopener noreferrer">Video</a>
+      {% endif %}
+      {% if publication.bibtex and publication.bibtex != empty %}
+      <a href="{{ publication.bibtex | escape }}" class="publication-link publication-link--bibtex" target="_blank" rel="noopener noreferrer">BibTeX</a>
+      {% endif %}
+    </div>
+    {% if publication.others %}<div class="publication-extra">{{ publication.others }}</div>{% endif %}
+  </div>
+</li>

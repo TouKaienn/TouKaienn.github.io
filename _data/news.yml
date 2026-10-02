@@ -1,13 +1,38 @@
+# Announcement months confirmed by Kaiyuan Tang on October 2, 2026.
 main:
-  - date: 2026.04
-    content: SGI is selected as a Highlight Presentation at CVPR 2026!
-  - date: 2025.08
-    content: NLI4VolVis is selected as Best Paper Award for IEEE VIS 2025!
-  - date: 2025.07
-    content: Three papers are accepted to IEEE VIS 2025!
-  - date: 2024.12
-    content: iVR-GS is accepted by IEEE PacificVis TVCG-Track 2025!
-  - date: 2024.07
-    content: StyleRF-VolVis is accepted by IEEE VIS 2024!
-  - date: 2023.12
-    content: ECNR is accepted by IEEE PacificVis Conference Track 2024!
+  - date: "2026-09"
+    label: "2026.09"
+    content: "Four papers—EVOLVE, ECoNGS, SciVisAgentBench, and Super-Gaussian—have been accepted to IEEE VIS 2026 / IEEE TVCG!"
+  - date: "2026-09"
+    label: "2026.09"
+    content: "Lossless-INR has been accepted to IEEE VIS 2026 Short Papers, and Toward AI VIS Co-Scientists has been accepted for an oral presentation at VISxGenAI 2026!"
+  - date: "2026-08"
+    label: "2026.08"
+    content: "Our CoBranchMR demonstration has been accepted to ACM CSCW 2026!"
+  - date: "2026-08"
+    label: "2026.08"
+    content: "I received the CSE Outstanding Research Assistant Award!"
+  - date: "2026-08"
+    label: "2026.08"
+    content: "I started as a postdoctoral researcher at the University of Notre Dame, working with Prof. Chaoli Wang!"
+  - date: "2026-06"
+    label: "2026.06"
+    content: "I completed my Ph.D. in Computer Science and Engineering at the University of Notre Dame!"
+  - date: "2026-04"
+    label: "2026.04"
+    content: "SGI was selected for a Highlight Presentation at CVPR 2026!"
+  - date: "2025-08"
+    label: "2025.08"
+    content: "NLI4VolVis received the Best Paper Award at IEEE VIS 2025!"
+  - date: "2025-07"
+    label: "2025.07"
+    content: "Three papers—TexGS-VolVis, MoE-INR, and NLI4VolVis—were accepted to IEEE VIS 2025!"
+  - date: "2024-12"
+    label: "2024.12"
+    content: "iVR-GS was accepted to the IEEE PacificVis 2025 TVCG Journal Track!"
+  - date: "2024-07"
+    label: "2024.07"
+    content: "StyleRF-VolVis was accepted to IEEE VIS 2024!"
+  - date: "2023-12"
+    label: "2023.12"
+    content: "ECNR was accepted to the IEEE PacificVis 2024 Conference Track!"

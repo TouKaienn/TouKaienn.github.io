@@ -1,0 +1,31 @@
+# Complete service record listed in the CV updated October 1, 2026.
+- title: Program Committee
+  items:
+    - venue: IEEE Pacific Visualization Conference (PacificVis), Papers Conference Track
+      years: "2027"
+    - venue: IEEE VIS Uncertainty Visualization Workshop
+      years: "2026"
+- title: Student Program Committee
+  items:
+    - venue: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
+      years: "2026"
+- title: Journal Reviewer
+  items:
+    - venue: Computers & Graphics
+    - venue: Computer Graphics Forum
+    - venue: Pattern Recognition
+    - venue: Engineering Applications of Artificial Intelligence
+- title: Conference Reviewer
+  items:
+    - venue: IEEE Visualization and Visual Analytics Conference (IEEE VIS), Full Papers
+      years: "2025–2026"
+    - venue: IEEE Pacific Visualization Conference (PacificVis), TVCG Journal Track
+      years: "2025–2027"
+    - venue: IEEE Pacific Visualization Conference (PacificVis), Conference Track
+      years: "2025–2027"
+    - venue: Eurographics Conference on Visualization (EuroVis), Full Papers
+      years: "2026"
+- title: Student Volunteer
+  items:
+    - venue: IEEE Visualization and Visual Analytics Conference (IEEE VIS)
+      years: "2024"

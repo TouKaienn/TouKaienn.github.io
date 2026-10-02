@@ -27,11 +27,16 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
-    font-family: $sans-serif-narrow;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em 28px;
+    font-family: $global-font-family;
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
+    @media (max-width: 600px) {
+      padding-left: 22px;
+      padding-right: 22px;
     }
 
     nav {
@@ -51,6 +56,11 @@
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+
+  .greedy-nav > button.hidden + .visible-links {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
