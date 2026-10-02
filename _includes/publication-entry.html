@@ -20,6 +20,9 @@
       {% if publication.pdf and publication.pdf != empty %}
       <a href="{{ publication.pdf | escape }}" class="publication-link publication-link--pdf" target="_blank" rel="noopener noreferrer">PDF</a>
       {% endif %}
+      {% if publication.preprint and publication.preprint != empty %}
+      <a href="{{ publication.preprint | escape }}" class="publication-link publication-link--pdf" target="_blank" rel="noopener noreferrer">Preprint (arXiv)</a>
+      {% endif %}
       {% if publication.code and publication.code != empty %}
       <a href="{{ publication.code | escape }}" class="publication-link publication-link--code" target="_blank" rel="noopener noreferrer">Code</a>
       {% endif %}

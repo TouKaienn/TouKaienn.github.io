@@ -126,6 +126,17 @@ main:
     conference: "<em>2nd Workshop on GenAI, Agents, and the Future of VIS (VISxGenAI at IEEE VIS)</em>, Boston, MA, Nov 2026."
     notes: "Oral Presentation"
     page: "https://visxgenai.github.io/"
+    preprint: "https://arxiv.org/abs/2605.21825"
+
+  - title: "SciVisAgentSkills: Design and Evaluation of Agent Skills for Scientific Data Analysis and Visualization"
+    image: "/images/pubs/SciVisAgentSkills.png"
+    authors: "Kuangshi Ai, Haichao Miao, <strong>Kaiyuan Tang</strong>, Shusen Liu, and Chaoli Wang"
+    year: 2026
+    venue_sort: "arXiv"
+    conference_short: "arXiv"
+    conference: "arXiv preprint arXiv:2606.05525, 2026."
+    pdf: "https://arxiv.org/abs/2606.05525"
+    code: "https://github.com/KuangshiAi/SciVisAgentSkills"
 
   - title: "SVLAT: Scientific Visualization Literacy Assessment Test"
     image: "/images/pubs/SVLAT.png"
