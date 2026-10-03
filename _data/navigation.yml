@@ -6,5 +6,5 @@ main:
   - title: "Service"
     url: /service/
   - title: "CV (PDF)"
-    url: /files/Kaiyuan_Tang_CV.pdf
+    url: /files/Kaiyuan_Tang_CV.pdf?v=20261003
     download: Kaiyuan_Tang_CV.pdf

@@ -10,7 +10,7 @@ redirect_from:
 
 {% assign cv = site.data.cv %}
 
-[Download the complete CV (PDF)]({{ '/files/Kaiyuan_Tang_CV.pdf' | relative_url }}) · Updated {{ cv.lastUpdated }}
+[Download the complete CV (PDF)]({{ '/files/Kaiyuan_Tang_CV.pdf' | relative_url }}?v={{ cv.lastUpdated | date: '%Y%m%d' }}) · Updated {{ cv.lastUpdated }}
 
 {{ cv.basics.summary }}
 
