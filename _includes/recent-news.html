@@ -1,38 +1,24 @@
-
-
-<style>
-.news-list {
-  margin: 1em 0;
-  padding: 0;
-}
-
-.news-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 0.8em;
-  line-height: 1.5;
-}
-
-.news-date {
-  font-weight: bold;
-  color: var(--global-theme-color, #002D72);
-  margin-right: 1em;
-  min-width: 80px;
-  flex-shrink: 0;
-}
-
-.news-content {
-  flex: 1;
-  color: var(--global-text-color, #000000);
-}
-
-</style>
-
-<ul class="news-list">
-  {% for item in site.data.news.main %}
-  <li class="news-item">
-    <time class="news-date" datetime="{{ item.date }}">[{{ item.label | default: item.date }}]</time>
-    <span class="news-content">{{ item.content }}</span>
-  </li>
+{% comment %}
+Shared News template: newest year/month first; stable order within each month.
+Dates are month-precision announcement dates. Do not invent a day.
+{% endcomment %}
+{% assign news_months = site.data.news.main | group_by: "date" | sort: "name" | reverse %}
+{% assign current_year = "" %}
+{% for month in news_months %}
+  {% assign year = month.name | slice: 0, 4 %}
+  {% if year != current_year %}
+    {% unless forloop.first %}</ul></section>{% endunless %}
+    <section class="news-year-group" aria-labelledby="news-year-{{ year }}">
+      <h3 class="news-year" id="news-year-{{ year }}">{{ year }}</h3>
+      <ul class="news-list">
+    {% assign current_year = year %}
+  {% endif %}
+  {% assign month_number = month.name | slice: 5, 2 %}
+  {% for item in month.items %}
+        <li class="news-item">
+          <time class="news-date" datetime="{{ item.date }}">{{ month_number }}.{{ year }}.</time>
+          <span class="news-content">{{ item.content | escape }}</span>
+        </li>
   {% endfor %}
-</ul>
+  {% if forloop.last %}</ul></section>{% endif %}
+{% endfor %}
