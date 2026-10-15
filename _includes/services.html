@@ -3,7 +3,8 @@
   <section class="service-category">
     <h3>{{ category.title }}</h3>
     <ul>
-      {% for service in category.items %}
+      {% assign sorted_services = category.items | sort_natural: "venue" %}
+      {% for service in sorted_services %}
       <li>{{ service.venue }}{% if service.years %} ({{ service.years }}){% endif %}</li>
       {% endfor %}
     </ul>
