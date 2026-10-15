@@ -1,9 +1,11 @@
-# Complete service record listed in the CV updated October 1, 2026.
+# Service record synchronized with the supplied KaiyuanTang_CV.pdf on October 14, 2026.
 - title: Program Committee
   items:
-    - venue: IEEE Pacific Visualization Conference (PacificVis), Papers Conference Track
+    - venue: IEEE Pacific Visualization Conference (IEEE PacificVis), VisNotes (Short Paper) Track
       years: "2027"
-    - venue: IEEE VIS Uncertainty Visualization Workshop
+    - venue: IEEE Pacific Visualization Conference (IEEE PacificVis), Conference Track
+      years: "2027"
+    - venue: IEEE VIS Workshop on Uncertainty Visualization
       years: "2026"
 - title: Student Program Committee
   items:
@@ -11,17 +13,17 @@
       years: "2026"
 - title: Journal Reviewer
   items:
-    - venue: Computers & Graphics
-    - venue: Computer Graphics Forum
-    - venue: Pattern Recognition
-    - venue: Engineering Applications of Artificial Intelligence
+    - venue: Computer Graphics Forum (CGF)
+    - venue: Computers & Graphics (C&G)
+    - venue: Engineering Applications of Artificial Intelligence (EAAI)
+    - venue: Pattern Recognition (PR)
 - title: Conference Reviewer
   items:
     - venue: IEEE Visualization and Visual Analytics Conference (IEEE VIS), Full Papers
       years: "2025–2026"
-    - venue: IEEE Pacific Visualization Conference (PacificVis), TVCG Journal Track
+    - venue: IEEE Pacific Visualization Conference (IEEE PacificVis), TVCG Journal Track
       years: "2025–2027"
-    - venue: IEEE Pacific Visualization Conference (PacificVis), Conference Track
+    - venue: IEEE Pacific Visualization Conference (IEEE PacificVis), Conference Track
       years: "2025–2027"
     - venue: Eurographics Conference on Visualization (EuroVis), Full Papers
       years: "2026"

@@ -9,7 +9,7 @@ main:
   - title: "EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database"
     image: "/images/pubs/EVOLVE-comparison.png"
     image_class: "publication-teaser--evolve"
-    authors: "<strong>Kaiyuan Tang</strong>, Maizhe Yang, and Chaoli Wang"
+    authors: "<strong>Kaiyuan Tang</strong>, <u>Maizhe Yang</u>, and Chaoli Wang"
     year: 2027
     venue_sort: "IEEE Transactions on Visualization and Computer Graphics"
     conference_short: "VIS 2026"
