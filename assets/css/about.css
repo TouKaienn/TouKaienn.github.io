@@ -85,6 +85,81 @@
   margin-top: 32px;
 }
 
+.cat-preview {
+  position: relative;
+  display: inline-block;
+}
+
+.cat-preview-trigger {
+  appearance: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 2px;
+  background: none;
+  color: var(--global-link-color);
+  font: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.16em;
+  cursor: pointer;
+}
+
+.cat-preview-trigger:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.cat-preview-photo {
+  position: absolute;
+  z-index: 20;
+  bottom: 100%;
+  left: var(--cat-preview-left, 0);
+  width: min(220px, calc(100vw - 44px));
+  padding-bottom: 10px;
+  line-height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+
+.cat-preview-card {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--global-bg-color, #fff);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 18%);
+}
+
+.cat-preview-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cat-preview-caption {
+  display: block;
+  padding: 9px 12px;
+  color: var(--global-text-color, #4d4b47);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.cat-preview:hover .cat-preview-photo,
+.cat-preview:focus-within .cat-preview-photo {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cat-preview-photo {
+    transition: none;
+  }
+}
+
 .homepage strong {
   color: #363430;
 }

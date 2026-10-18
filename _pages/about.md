@@ -18,7 +18,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the [Department of Computer Science and Engineering](https://cse.nd.edu/) at the [University of Notre Dame](https://www.nd.edu/), working with [Prof. Chaoli Wang](https://sites.nd.edu/chaoli-wang/) in the ND-VIS research group.
 
-I received my Ph.D. in Computer Science and Engineering from Notre Dame in June 2026, advised by Prof. Wang, and my Bachelor of Engineering from [Xidian University](https://en.xidian.edu.cn/) in 2022.
+I received my Ph.D. in Computer Science and Engineering from Notre Dame in June 2026, advised by Prof. Wang, and obtained my Bachelor of Engineering from [Xidian University](https://en.xidian.edu.cn/) in 2022.
 
 </div>
 <img class="homepage-portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Kaiyuan Tang" width="720" height="720">
@@ -26,7 +26,9 @@ I received my Ph.D. in Computer Science and Engineering from Notre Dame in June 
 
 <div class="homepage-research" markdown="1">
 
-My research brings together **scientific visualization, machine learning, computer graphics, and human-centered AI**. I develop neural representations for scientific data compression and generalization, expressive rendering and editable scene representations, and multimodal interfaces and visualization agents.
+My research aims to enhance human capabilities for working with data. I am broadly interested in topics related to this goal, including data compression, generation, and representation. My work primarily spans scientific visualization, computer graphics, and human-computer interaction.
+
+I enjoy exploring and sharing interesting research ideas, and I love <span class="cat-preview"><button class="cat-preview-trigger" type="button" aria-describedby="cat-preview-photo">cats</button><span class="cat-preview-photo" id="cat-preview-photo" role="tooltip"><span class="cat-preview-card"><img src="{{ '/images/cat-cleaned.png' | relative_url }}" alt="An orange-and-white cat relaxing on the carpet" width="1086" height="1448"><span class="cat-preview-caption">He loves relaxing on a freshly cleaned carpet.</span></span></span></span>!
 
 </div>
 
